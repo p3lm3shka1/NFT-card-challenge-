@@ -144,7 +144,7 @@ hr {
   color: hsl(0, 0%, 100%);
 }
 
-/* responsive (got a little help with that) */
+/* responsive (got a little help with taht) */
 
 @media (max-width: 480px) {
   .card {
@@ -152,8 +152,8 @@ hr {
     height: auto;
     margin-top: 50px;
   }
-  
- .image {
+
+  .image {
     width: 100%;
     height: auto;
     margin: 0;
