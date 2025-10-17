@@ -1,0 +1,204 @@
+html {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+.card {
+  border: 1px solid hsl(216, 50%, 16%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  margin-top: 150px;
+  height: 740px;
+  width: 440px;
+  box-shadow: 20px 50px 10px hsl(217, 55%, 10%);
+}
+
+.image {
+  border: none solid white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 400px;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.layer {
+  position: absolute;
+  border: none solid white;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 720px;
+  margin-left: 20px;
+  width: 400px;
+  height: 400px;
+  transition: opacity 0.3s ease;
+  background: hsl(178, 100%, 50%);
+  opacity: 0;
+}
+
+.icon-view {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-left: 175px;
+  margin-top: 175px;
+  background-image: white;
+}
+
+.layer:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.header:hover {
+  cursor: pointer;
+}
+
+.paragraph {
+  color: hsl(215, 51%, 70%);
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph-2 {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.etherium {
+  width: 10px;
+  height: 13px;
+}
+
+.paragraph-3 {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-right: 20px;
+}
+
+.clock {
+  width: 15px;
+  height: 15px;
+}
+
+hr {
+  display: block;
+  align-items: center;
+  margin-top: 40px;
+  opacity: 0.1;
+  width: 400px;
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.footer {
+  font-weight: 400;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.text-2 {
+  margin-top: 30px;
+}
+
+.blue {
+  color: hsl(215, 51%, 70%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.white:hover {
+  cursor: pointer;
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+}
+
+/* responsive (got a little help with that) */
+
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+  }
+}
+
+/* .image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .layer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .icon-view {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header,
+  .paragraph,
+  .paragraph-2,
+  .paragraph-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .text-2 {
+    font-size: 0.9em;
+  }
+} */
