@@ -9,6 +9,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 Live site URL : https://p3lm3shka1.github.io/NFT-card-challenge-/
+<br>
 Repository URL : https://github.com/p3lm3shka1/NFT-card-challenge-
 
 ## My process
